@@ -13,23 +13,23 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-2">
-                        <img src={logo_svg} alt="" srcset="" />
-                        <img src={logo_image} alt="" srcset="" style={{ width: '10rem' }} />
+                        <img src={logo_svg} alt="" srcSet="" />
+                        <img src={logo_image} alt="" srcSet="" style={{ width: '10rem' }} />
                         <div className='topbar-icons'>
                             <span>
                                 <i className="fa-brands fa-linkedin-in"></i>
                             </span>
                             <span>
-                                <img src={messanger_icon} alt="" srcset="" />
+                                <img src={messanger_icon} alt="" srcSet="" />
                             </span>
                             <span>
-                                <img src={twiter_icon} alt="" srcset="" />
+                                <img src={twiter_icon} alt="" srcSet="" />
                             </span>
                             <span>
-                                <img src={eight_icon} alt="" srcset="" />
+                                <img src={eight_icon} alt="" srcSet="" />
                             </span>
                             <span>
-                                <img src={music_icon} alt="" srcset="" />
+                                <img src={music_icon} alt="" srcSet="" />
                             </span>
                         </div>
                     </div>

@@ -22,15 +22,15 @@ const Services = () => {
             <div className="container image-container">
                 <div className="row">
                     <div className="col-md-4">
-                        <img className='img-fluid' src={facial_svg} alt="" srcset="" />
+                        <img className='img-fluid' src={facial_svg} alt="" srcSet="" />
                         <p>Facial</p>
                     </div>
                     <div className="col-md-4">
-                        <img className='img-fluid' src={fillers_svg} alt="" srcset="" />
+                        <img className='img-fluid' src={fillers_svg} alt="" srcSet="" />
                         <p>Filters</p>
                     </div>
                     <div className="col-md-4">
-                        <img className='img-fluid' src={botox_svg} alt="" srcset="" />
+                        <img className='img-fluid' src={botox_svg} alt="" srcSet="" />
                         <p>Botox & Dysport</p>
                     </div>
                 </div>

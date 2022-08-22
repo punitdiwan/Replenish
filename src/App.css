@@ -26,10 +26,14 @@ body {
   font-size: 1.5rem;
   justify-content: space-between;
 }
+.offcanvas-body{font-size: 1.5rem;}
+.bg-golden{background-color:#DECFB3;}
+.golden{color: #DECFB3;}
+.golden-border{border: 1px solid #DECFB3;}
 
 .hero-image-section {
 width: 100%;
-height: 80vh;
+height: 100vh;
 background-image: url('./svgs/heroimage.svg');
 background-position: center center;
 background-repeat: no-repeat;
@@ -38,6 +42,7 @@ background-size: cover;
 background-color: #464646;
 display: flex;
 align-items: center;
+
 }
 .hero-heading-section{
   display: flex;
@@ -56,7 +61,7 @@ align-items: center;
   background-color: white;
   font-size: 1.5rem;
   list-style: none;
-
+  z-index: 999;
 }
 .about-section{
   padding-top: 6rem;
@@ -137,4 +142,16 @@ align-items: center;
 .copyrigh-section{
   font-size: 1.5rem;
   padding: 1rem;
+}
+
+
+
+
+
+/* Media Queries Start For Responsiveness */
+
+@media screen and (max-width:760px) {
+  .topbar-section{
+    display: none;
+  }
 }
