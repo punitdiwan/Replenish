@@ -1,7 +1,7 @@
 import React from 'react'
 import About from '../components/About'
 import Footer from '../components/Footer'
-import HeroImageSection from '../components/HeroImageSection'
+import CarouselSection from '../components/CarouselSection'
 import Services from '../components/Services'
 import Testinomials from '../components/Testinomials'
 import TreatmentCard from '../components/TreatmentCard'
@@ -10,7 +10,7 @@ import TreatmentCard from '../components/TreatmentCard'
 const Home = () => {
     return (
         <div>
-            <HeroImageSection></HeroImageSection>
+            <CarouselSection></CarouselSection>
             <About></About>
             <Services></Services>
             <TreatmentCard></TreatmentCard>

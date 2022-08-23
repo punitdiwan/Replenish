@@ -6,8 +6,8 @@ const About = () => {
     return (
         <div className='text-center about-section'>
           <div className="container">
-            <img src={logo_svg} alt="" srcSet="" />
-            <img src={serviceheading_svg} alt="" srcSet="" />
+            <img src={logo_svg} alt="" srcSet="" className='logo-img'/>
+            <img src={serviceheading_svg} alt="" srcSet="" className='logo-text-img' />
             <h2 className='mt-4'>Preserving Your Natural Beauty</h2>
             <p className='mt-4'>
                 At Replenish our expert staff is dedicated to providing our clients with the most advanced and refined cosmetic treatments available.  The goal of our treatments is to enhance your appearance, reverse the signs of aging and restore youth while preserving your natural beauty.

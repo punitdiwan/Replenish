@@ -4,7 +4,7 @@ const TreatmentCard = () => {
     return (
         <div className='treatment-card-section p-0 m-0 pt-5'>
             <div className=' pt-5 bg-dark'>
-                <div className="container pt-5">
+                <div className="container pt-3">
                     <h2 className='text-center'>Ready to scheduled your event or treatment</h2>
                     <div className="row">
                         <div className="col-md-6 p-3">
@@ -48,7 +48,7 @@ const TreatmentCard = () => {
                         </div>
                        <div className='text-center'>
                        <p className='mt-5 mb-5'>
-                            <button className='btn p-2' style={{ backgroundColor: '#DECFB3' }}>LEARN MORE</button>
+                            <button className='btn p-2' style={{ backgroundColor: '#DECFB3' }}>BOOK NOW</button>
                         </p>
                        </div>
                     </div>
